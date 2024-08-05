@@ -16,7 +16,12 @@ header {
 }
 
 header img {
-    height: 50px;
+    height: 80px; /* Make the logo bigger */
+    transition: all 0.3s ease-in-out;
+}
+
+header img:hover {
+    box-shadow: 0 0 15px #00ff00; /* Green glow effect */
 }
 
 nav.menu {
@@ -43,7 +48,7 @@ nav.menu ul li a {
 }
 
 nav.menu ul li a:hover {
-    color: #ffb94f;
+    color:  #00ff00;
 }
 
 .hero {
